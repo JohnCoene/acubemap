@@ -1,0 +1,32 @@
+# acubemap
+
+[Cubemap component](https://github.com/bryik/aframe-cubemap-component) for [aframer](https://aframer.john-coene.com/).
+
+## Installation
+
+``` r
+# install.packages("devtools")
+devtools::install_github("JohnCoene/apath")
+```
+
+## Example
+
+The `yokohama` folder can be found at `system.file("yokohama", package = "acubemap")`.
+
+```{r}
+library(aframer)
+library(acubemap)
+
+embed_aframe(
+  a_scene(
+    a_dependency(),
+    acubemap_dependency(),
+    a_entity(
+      cubemap = opts_aframe(
+        folder = "yokohama"
+      )
+    )
+  )
+)
+```
+

@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+index.Rmd
+pkgdown
+docs
+yokohama
