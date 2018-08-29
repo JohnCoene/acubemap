@@ -23,7 +23,7 @@ embed_aframe(
     acubemap_dependency(),
     a_entity(
       cubemap = opts_aframe(
-        folder = "yokohama"
+        folder = "/yokohama/"
       )
     )
   )
