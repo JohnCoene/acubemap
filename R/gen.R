@@ -14,6 +14,6 @@
 #' @export
 acubemap_dependency <- function(){
   .get_dependency(
-    script = "aframe-alongpath-component.min.js"
+    script = "aframe-cubemap-component.min.js"
   )
 }
