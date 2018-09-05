@@ -11,12 +11,22 @@ devtools::install_github("JohnCoene/apath")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+See [website](https://acubemap.john-coene.com/).
 
 ``` r
 library(aframer)
 library(acubemap)
 
-browse_afr
+browse_aframe(
+  a_scene(
+    a_dependency(),
+    acubemap_dependency(),
+    a_entity(
+      cubemap = opts_aframe(
+        folder = "/yokohama/"
+      )
+    )
+  )
+)
 ```
 
